@@ -1,0 +1,15 @@
+Utiliza el siguiente código HTML para pedir al usuario que introduzca su nombre y al clicar un botón se guarde en las cookies. 
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Exercise</title>
+</head>
+
+<body>
+  <h1>JavaScript</h1>
+  <p>Write your name: <input id="name" type="text" /></p>
+  <button id="execute">Execute</button>
+</body>
+
+</html>

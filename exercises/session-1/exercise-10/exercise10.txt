@@ -1,0 +1,3 @@
+Un número de Armstrong es todo aquel número que es la suma de cada uno de sus mismos dígitos elevado al número total de dígitos.
+Por ejemplo, el número 371 es de Armstrong ya que este posee 3 dígitos y la suma de cada uno de sus dígitos elevado a 3 es igual a 3^3 + 7^3 + 1^3 = 27 + 343 + 3 = 371. 
+Crea una aplicación web que busque todos los números de Armstrong que hay entre el 100 y el 9999 (incluyendo los dos), y los muestre en un elemento con etiqueta “textarea”. 

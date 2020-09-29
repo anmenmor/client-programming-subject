@@ -1,0 +1,5 @@
+Crea una aplicación web que:
+Pida al usuario que escriba un número natural (entero y positivo) del 1 al 10 (incluyendo el 1 y el 10).
+Compruebe si es realmente positivo. Si no lo es, que vuelva a pedir el número al usuario hasta que ponga un número positivo.
+Compruebe si es realmente entero (si no tiene decimales). Si los tiene, que vuelva a pedir el número al usuario hasta que ponga un número sin decimales.
+Utilizando la sentencia “for”, que muestre por consola todos los números múltiples del número introducido, desde 1 a 1000.

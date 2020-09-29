@@ -1,0 +1,23 @@
+Modifica el siguiente código para mostrar por consola los tipos de datos de cada una de las variables.
+
+
+<html>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Exercise</title>
+</head>
+
+<body>
+  <h1>JavaScript</h1>
+  <script>
+    let a;
+    const b = null;
+    const c = 'hello';
+    const d = 22.5;
+    const e = true;
+  </script>
+</body>
+
+</html>

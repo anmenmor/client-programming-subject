@@ -1,0 +1,26 @@
+Utiliza el siguiente código HTML y crea una aplicación web que:
+Compruebe si se ha clicado el botón y lea los valores de los inputs (year, month, day).
+Utilizando estas 3 entradas del usuario, cree un objeto tipo Date.
+Compruebe si la fecha introducida es mayor, menor o igual a la fecha actual.
+Si la fecha es posterior a la actual, que calcule y muestre en un elemento textarea cuantos días hay de diferencia.
+Si la fecha es anterior a la actual, que calcule y muestre en un elemento textarea cuantos días hay de diferencia, pero que también muestre en el mensaje que la fecha es pasada.
+Si la fecha es igual a la actual, que muestre el siguiente mensaje en un elemento textarea: “La fecha introducida es hoy!”.
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Exercise</title>
+</head>
+
+<body>
+  <h1>JavaScript</h1>
+  <p>Write a year: <input id="year" type="number" /></p>
+  <p>Write a month: <input id="month" type="number" /></p>
+  <p>Write a day: <input id="day" type="number" /></p>
+  <button id="execute">Execute</button><br /><br />
+  <textarea name="" id="textArea" cols="30" rows="10"></textarea>
+</body>
+
+</html>

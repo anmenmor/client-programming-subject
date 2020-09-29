@@ -1,0 +1,5 @@
+Un número palíndromo es aquel que se lee igual adelante que atrás.
+Crea una aplicación web que:
+Lea el valor del input del usuario.
+Utilizando la sentencia “for”, que invierta el número.
+Y que compruebe y muestre en un elemento “textarea” si el número introducido es palíndromo o no.
