@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>My Favorite Movies</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+        <p>Introduce tu email:</p>
+        <div>
+        <i class="material-icons prefix">email
+        <input type="text" id="email"></i>
+        <p hidden id="errorMessage">El email introducido no es correcto</p>
+        </div>
+
+        <div hidden id="loginView">
+            <form>
+                <label>Introduce el titulo de la pelicula:</label><br>
+                <input type="text" id="title"><br><br>
+                <label>Introduce la sinopsis de la pelicula:</label><br>
+                <input type="text" id="sinopsis"><br><br>
+                <button class="waves-effect waves-light btn-small" id="addButton">Add Film</button> 
+            </form>
+            <ul id="filmList"></ul>
+        </div>
+    </body>
+</html>

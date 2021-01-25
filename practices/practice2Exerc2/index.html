@@ -1,0 +1,24 @@
+<html>
+<head>
+  <title>Deck</title>
+  <link rel = "stylesheet" href="mystyle.css">
+</head>
+<body>
+  <h1>Deck</h1>
+      <textarea id="showDeck"></textarea>
+    <div>
+      <button class ="button1" id="createSpanishDeck">Crear baraja española</button>
+      <button class="button2" id="createFrenchDeck">Crear baraja francesa</button>
+      <p class="p1"> Indica palo: <input class="input1" type="text" id="cardSuit"/></p><p class="p2"> Indica valor: <input class="input2" type="text" id="cardValue"/></p>
+      <button class="button1" id="addCard">Añade Carta</button><button class="button2" id="removeCard">Elimina carta</button>
+    </div>
+    <div><button class="button3" id="shuffle">Barajar</button></div>
+    
+   
+  <script src="js/classes/Card.js"></script>
+  <script src="js/classes/Deck.js"></script>
+  <script src="js/classes/SpanishDeck.js"></script>
+  <script src="js/classes/FrenchDeck.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>

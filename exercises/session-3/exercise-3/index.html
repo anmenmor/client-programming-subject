@@ -1,0 +1,107 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Ejercicio 3</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      div {
+        padding: 15px;
+        margin-right: 5px;
+        margin-left: 5px;
+        width: 45%;
+        float: left;
+        border: 1px solid black;
+        border-radius: 25px;
+      }
+      #mostrar {
+        border: 1px solid black;
+        margin: 15px;
+        padding: 15px;
+        position: absolute;
+        top: 55%;
+        left: 27%;
+      }
+      #left {
+        padding-bottom: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Ejercicio 3</h1>
+    <div id="left">
+      <h3>Alumno</h3>
+      <p>
+        Nombre: <input type="text" id="nombre_alumno" placeholder="Nombre" />
+        <input
+          type="text"
+          id="apellido1_alumno"
+          placeholder="Primer apellido"
+        />
+        <input
+          type="text"
+          id="apellido2_alumno"
+          placeholder="Segundo apellido"
+        />
+      </p>
+      <p>
+        Dirección:
+        <input type="text" id="tipoCalle_alumno" placeholder="Tipo de calle" />
+        <input type="text" id="direccion_alumno" placeholder="Dirección" />
+        <input type="text" id="numero_alumno" placeholder="Número" />
+      </p>
+      <p>Email: <input type="email" id="email_alumno" placeholder="Email" /></p>
+      <p>Curso: <input type="text" id="curso_alumno" placeholder="Curso" /></p>
+      <p>
+        Cuota: <input type="number" id="cuota_alumno" placeholder="Cuota" />
+      </p>
+      <button id="crear_alumno">Crear alumno</button>
+    </div>
+    <div id="right">
+      <h3>Profesor</h3>
+      <p>
+        Nombre: <input type="text" id="nombre_profesor" placeholder="Nombre" />
+        <input
+          type="text"
+          id="apellido1_profesor"
+          placeholder="Primer apellido"
+        />
+        <input
+          type="text"
+          id="apellido2_profesor"
+          placeholder="Segundo apellido"
+        />
+      </p>
+      <p>
+        Dirección:
+        <input
+          type="text"
+          id="tipoCalle_profesor"
+          placeholder="Tipo de calle"
+        />
+        <input type="text" id="direccion_profesor" placeholder="Dirección" />
+        <input type="text" id="numero_profesor" placeholder="Número" />
+      </p>
+      <p>
+        Email: <input type="email" id="email_profesor" placeholder="Email" />
+      </p>
+      <p>
+        Cursos:
+        <input type="text" id="cursos_profesor" placeholder="Cursos" /><br />
+        <small>Escribe los cursos separados por comas ","</small>
+      </p>
+      <p>
+        Sueldo:
+        <input type="number" id="sueldo_profesor" placeholder="Sueldo" />
+      </p>
+      <button id="crear_profesor">Crear profesor</button>
+    </div>
+    <textarea id="mostrar" cols="70" rows="15" style="margin-top: 30px;"></textarea>
+
+    <script src="js/classes/Person.js"></script>
+    <script src="js/classes/Student.js"></script>
+    <script src="js/classes/Teacher.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

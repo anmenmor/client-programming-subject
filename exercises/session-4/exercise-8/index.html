@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>LS MyList</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/materialize.min.css" />
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+  </head>
+  <body>
+    <header class="row">
+      <div class="navbar-fixed">
+        <nav class="nav-extended blue darken-4">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo">LS MyList</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="row">
+        <p>
+          <strong>This is a list of items.</strong> The list name must start with
+          capital letter, and must have only letters or numbers.
+        </p>
+      </div>
+      <div class="row no-margin-y">
+        <div class="input-field col s3">
+          <input id="listName" type="text" placeholder=""/>
+          <label for="listName">List name</label>
+        </div>
+        <div class="col s4 offset-s1 row valign-wrapper ">
+          <div class="input-field col s6">
+            <input id="item" type="text" placeholder=""/>
+            <label for="item">Item</label>
+          </div>
+          <div class="col s6">
+            <a id="addBtn" class="waves-effect waves-light btn amber brown-text">Add item</a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s5">
+          <p class="grey-text">Items</p>
+          <ul id="itemList" class="collection" placeholder="">
+          </ul>
+        </div>
+      </div>
+      <a id="getBtn" class="waves-effect waves-light btn blue darken-4">Get list</a>
+    </main>
+
+    <script src="js/materialize.min.js"></script>
+    <script src="js/List.js"></script>
+    <script src="js/constants.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/events.js"></script>
+  </body>
+</html>

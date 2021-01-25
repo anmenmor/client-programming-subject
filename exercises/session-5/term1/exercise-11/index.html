@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Exercise 11</title>
+        <style>
+            section {
+                margin-bottom: 30px;
+                margin-top: 10px;
+                border: 1px solid grey;
+                border-radius: 10px;
+                padding: 10px;
+            }
+            textarea {
+                margin-top: 5px;
+            }
+            input {
+                margin-right: 10px;
+            }
+        </style>
+         <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <h1>Exercise 11</h1>
+        <h3>Create the time</h3>
+        <section>
+            Continent: <input type="text" id="continent" />
+            Country: <input type="text" id="country" />
+            Capital: <input type="text" id="capital" />
+            <br />
+            <button id="createBtn">Create</button>
+            <br />
+            <textarea id="created" cols="50" rows="5" disabled></textarea>
+        </section>
+        <br />
+        <section>
+            <button id="nextHourBtn">Next Hour</button><br />
+            <textarea id="nextHour" cols="50" rows="1" disabled></textarea>
+        </section>
+        <section>
+            <button id="previousHourBtn">Previous Hour</button><br />
+            <textarea id="previousHour" cols="50" rows="1" disabled></textarea>
+        </section>
+        <section>
+            <button id="getTimeOfBtn">Get Time of</button>
+            Continent: <input type="text" id="newContinent" />
+            Country: <input type="text" id="newCountry" />
+            Capital: <input type="text" id="newCapital" />
+            <br />
+            <textarea id="getTimeOf" cols="50" rows="1" disabled></textarea>
+        </section>
+
+        <script src="Country.js"></script>
+        <script src="MyTime.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

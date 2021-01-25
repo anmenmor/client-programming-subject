@@ -1,0 +1,1 @@
+($("div p")).last().css('background', 'blue');

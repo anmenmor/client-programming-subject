@@ -21,3 +21,5 @@ const clickButton =document.getElementById('combine').addEventListener('click',(
     const textAreaInput = document.getElementById('result');
     textAreaInput.value = textResult;
 })
+
+

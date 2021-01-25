@@ -1,0 +1,10 @@
+body {
+    margin-bottom: 2%;
+    margin-left: 2%;
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#loginView {
+    margin-top: 3%;
+}
